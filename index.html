@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="login-container">
+      <section class="login-card" aria-labelledby="login-title">
+        <h1 id="login-title">Welcome Back</h1>
+        <p class="subtitle">Sign in to continue</p>
+
+        <form class="login-form" action="#" method="post">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="••••••••"
+            required
+          />
+
+          <button type="submit">Log In</button>
+        </form>
+
+        <p class="helper-text">
+          Forgot your password?
+          <a href="#">Reset it</a>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
